@@ -14,6 +14,18 @@ img{
     height: 100%;
 }
 
+/* hover config */
+.function, .arrow, button:hover{
+    cursor: pointer;
+}
+.function:hover{
+    color: green;
+}
+.ending:hover{
+    font-weight: bold;
+    cursor:pointer;
+}
+/* // hover config */
 /* flex config */
 .d-flex{
     display: flex;
@@ -91,9 +103,7 @@ footer{
     padding-bottom: 1px;
 }
 
-.function, .arrow, button:hover{
-    cursor: pointer;
-}
+
 
 .arrow{
     align-self: center;
