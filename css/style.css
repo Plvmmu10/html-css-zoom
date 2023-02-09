@@ -20,6 +20,9 @@ img{
 }
 
 /* header config */
+header{
+    margin-top: 2vh;
+}
 .viewConfig{
     background-color: black;
     justify-content: flex-end;
@@ -38,7 +41,7 @@ img{
 main{
     height: 70vh;
     width: 90%;
-    margin: 3% auto;
+    margin: 6vh auto;
 }
 /* // main config */
 
@@ -64,3 +67,16 @@ main{
     left: 5px;
 }
 /* // webcam config */
+
+
+/* footer config */
+
+/* microphone and video function config */
+footer{
+    margin-top: 9.4vh;
+    background-color: #222222;
+    height: 10vh;
+}
+/* // microphone and video function config */
+
+/* //footerconfig */
