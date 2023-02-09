@@ -7,13 +7,11 @@
 body{
     background-color: black;
 }
-.debug{
-    border: 1px solid red;
-}
 
-.container{
-    width: 95vw;
-    margin: 0 auto;
+
+img{
+    width: 100%;
+    height: 100%;
 }
 
 /* flex config */
@@ -37,5 +35,32 @@ body{
 /* // header config */
 
 /* main config */
-
+main{
+    height: 70vh;
+    width: 90%;
+    margin: 3% auto;
+}
 /* // main config */
+
+/* webcam config */
+.row{
+    width: 100%;
+    height: calc(100% / 5);
+    flex-flow: row wrap;
+}
+.webcamContain{
+    position: relative;
+    width: calc(100% / 7);
+    height: 100%;
+    padding: 7px 5px;
+}
+
+.micStatus{
+    background-color: rgba(101, 101, 101, 0.402);
+    color: white;
+    padding: 2px 4px;
+    position: absolute;
+    bottom: 7px;
+    left: 5px;
+}
+/* // webcam config */
