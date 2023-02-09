@@ -4,8 +4,38 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-color: black;
+}
 .debug{
     border: 1px solid red;
 }
 
+.container{
+    width: 95vw;
+    margin: 0 auto;
+}
+
+/* flex config */
+.d-flex{
+    display: flex;
+}
+
+/* header config */
+.viewConfig{
+    background-color: black;
+    justify-content: flex-end;
+}
+
+.speakerView, .fullscreen{
+    background-color: grey;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+/* // header config */
+
+/* main config */
+
+/* // main config */
