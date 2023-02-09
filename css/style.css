@@ -20,9 +20,7 @@ img{
 }
 
 /* header config */
-header{
-    margin-top: 2vh;
-}
+
 .viewConfig{
     background-color: black;
     justify-content: flex-end;
@@ -39,9 +37,9 @@ header{
 
 /* main config */
 main{
-    height: 70vh;
+    height: 80vh;
     width: 90%;
-    margin: 6vh auto;
+    margin: 5.2vh auto;
 }
 /* // main config */
 
@@ -70,13 +68,53 @@ main{
 
 
 /* footer config */
-
-/* microphone and video function config */
 footer{
-    margin-top: 9.4vh;
+    
     background-color: #222222;
-    height: 10vh;
+    height: 8vh;
+    justify-content: space-between;
 }
-/* // microphone and video function config */
-
 /* //footerconfig */
+
+.f-flex{
+    display: flex;
+    margin: 10px;
+}
+.f-container{
+    flex-direction: column;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.function{
+    font-size: 30px;
+    padding-bottom: 1px;
+}
+
+.function, .arrow, button:hover{
+    cursor: pointer;
+}
+
+.arrow{
+    align-self: center;
+    margin-right: 20px;
+}
+
+.function, .f-text, .arrow{
+    color: white;
+}
+
+.ending{
+    background-color: lightgrey;
+    width: 6%;
+    justify-content: center;
+}
+
+.green{
+    color: green;
+}
+
+#end{
+    color: red;
+    align-self: center;
+}
