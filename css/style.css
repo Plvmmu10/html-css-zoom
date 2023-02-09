@@ -14,6 +14,25 @@ img{
     height: 100%;
 }
 
+.wrapper{
+    height: 100vh;
+}
+
+/* total height config */
+
+header{
+    height: 2.5vh;
+}
+
+main{
+    height: 80vh;
+    margin: 5vh auto;
+}
+
+footer{
+    height: 7.5vh;
+}
+
 /* hover config */
 .function, .arrow, button:hover{
     cursor: pointer;
@@ -49,9 +68,7 @@ img{
 
 /* main config */
 main{
-    height: 80vh;
     width: 90%;
-    margin: 5.2vh auto;
 }
 /* // main config */
 
@@ -80,10 +97,8 @@ main{
 
 
 /* footer config */
-footer{
-    
+footer{   
     background-color: #222222;
-    height: 8vh;
     justify-content: space-between;
 }
 /* //footerconfig */
